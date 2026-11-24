@@ -38,7 +38,7 @@ Use a coherent Material color scheme, ideally generated from the product's key c
 - Use surface roles to create restrained elevation and grouping. Do not stack many nearly identical surface shades without a hierarchy reason.
 - Use error roles for errors and destructive context, not as generic decoration.
 - Ensure text and important UI boundaries meet WCAG contrast requirements. Never communicate state by color alone; pair color with text, iconography, or another clear signal.
-- Do not use raw hex values in component styles when a matching theme role exists. A raw color is acceptable for an actual image/illustration or a documented brand color that cannot be represented by the theme.
+- Do not use raw hex values in component styles when a matching theme role exists. A raw color is acceptable for an actual image or documented brand color that cannot be represented by the theme.
 - Respect user-selected light and dark themes. Do not hard-code light-only text or surfaces.
 
 Example theme values are illustrative only; establish actual brand colors from the project rather than copying these values blindly.
@@ -109,7 +109,7 @@ Use `md-icon-button` for a compact, familiar action with a clear accessible name
 
 ### FABs
 
-Use `md-fab` or its documented variants for the primary, frequently needed action on a screen, not as a generic decoration or a second competing primary action. Keep it in a stable, reachable location and ensure it does not cover content, navigation, or focused controls. Use an extended FAB only when the text label improves recognition.
+Use `md-fab` or its documented variants for the primary, frequently needed action on a screen, not as generic decoration or a second competing primary action. Keep it in a stable, reachable location and ensure it does not cover content, navigation, or focused controls. Use an extended FAB only when the text label improves recognition.
 
 ### Text fields
 
